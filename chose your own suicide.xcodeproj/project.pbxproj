@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA52E5C52C9E08F400BD5898 /* choseWhichDeathApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA52E5C42C9E08F400BD5898 /* choseWhichDeathApp.swift */; };
+		CA52E5C72C9E08F400BD5898 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA52E5C62C9E08F400BD5898 /* ContentView.swift */; };
+		CA52E5C92C9E08F600BD5898 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA52E5C82C9E08F600BD5898 /* Assets.xcassets */; };
+		CA52E5CC2C9E08F600BD5898 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA52E5CB2C9E08F600BD5898 /* Preview Assets.xcassets */; };
+		CA52E5D62C9E08F700BD5898 /* chose_your_own_suicideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA52E5D52C9E08F700BD5898 /* chose_your_own_suicideTests.swift */; };
+		CA52E5E02C9E08F700BD5898 /* chose_your_own_suicideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA52E5DF2C9E08F700BD5898 /* chose_your_own_suicideUITests.swift */; };
+		CA52E5E22C9E08F700BD5898 /* chose_your_own_suicideUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA52E5E12C9E08F700BD5898 /* chose_your_own_suicideUITestsLaunchTests.swift */; };
+		CA52E5EF2C9E0C5300BD5898 /* doorOfDoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA52E5EE2C9E0C5200BD5898 /* doorOfDoom.swift */; };
+		CA52E5F12C9E0DCE00BD5898 /* doorOfNerdom.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA52E5F02C9E0DCE00BD5898 /* doorOfNerdom.swift */; };
+		CA52E5F32C9E0DEC00BD5898 /* doorOfGaslighting.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA52E5F22C9E0DEC00BD5898 /* doorOfGaslighting.swift */; };
+		CA52E5F52C9E0E1000BD5898 /* doorOfHint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA52E5F42C9E0E0F00BD5898 /* doorOfHint.swift */; };
+		CA52E5F72C9E0FA100BD5898 /* youDied.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA52E5F62C9E0FA100BD5898 /* youDied.swift */; };
+		CA52E5F92C9E119E00BD5898 /* hell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA52E5F82C9E119E00BD5898 /* hell.swift */; };
+		CA52E5FB2C9E1DE900BD5898 /* purgatory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA52E5FA2C9E1DE900BD5898 /* purgatory.swift */; };
+		CA8BFE3E2CA275DB00C20FAA /* returning customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8BFE3D2CA275DB00C20FAA /* returning customer.swift */; };
+		CA8BFE402CA34F4500C20FAA /* secret room.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8BFE3F2CA34F4500C20FAA /* secret room.swift */; };
+		CA8BFE422CA35D9A00C20FAA /* Heaven.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8BFE412CA35D9A00C20FAA /* Heaven.swift */; };
+		CA8BFE442CA3619000C20FAA /* startView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8BFE432CA3619000C20FAA /* startView.swift */; };
+		CA8BFE482CA4ABA400C20FAA /* knife.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CA8BFE472CA4ABA400C20FAA /* knife.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA52E5D22C9E08F700BD5898 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA52E5B92C9E08F400BD5898 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA52E5C02C9E08F400BD5898;
+			remoteInfo = "chose your own suicide";
+		};
+		CA52E5DC2C9E08F700BD5898 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA52E5B92C9E08F400BD5898 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA52E5C02C9E08F400BD5898;
+			remoteInfo = "chose your own suicide";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA52E5C12C9E08F400BD5898 /* chose your own suicide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "chose your own suicide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA52E5C42C9E08F400BD5898 /* choseWhichDeathApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = choseWhichDeathApp.swift; sourceTree = "<group>"; };
+		CA52E5C62C9E08F400BD5898 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CA52E5C82C9E08F600BD5898 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA52E5CB2C9E08F600BD5898 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA52E5D12C9E08F700BD5898 /* chose your own suicideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "chose your own suicideTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA52E5D52C9E08F700BD5898 /* chose_your_own_suicideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chose_your_own_suicideTests.swift; sourceTree = "<group>"; };
+		CA52E5DB2C9E08F700BD5898 /* chose your own suicideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "chose your own suicideUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA52E5DF2C9E08F700BD5898 /* chose_your_own_suicideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chose_your_own_suicideUITests.swift; sourceTree = "<group>"; };
+		CA52E5E12C9E08F700BD5898 /* chose_your_own_suicideUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chose_your_own_suicideUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CA52E5EE2C9E0C5200BD5898 /* doorOfDoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doorOfDoom.swift; sourceTree = "<group>"; };
+		CA52E5F02C9E0DCE00BD5898 /* doorOfNerdom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doorOfNerdom.swift; sourceTree = "<group>"; };
+		CA52E5F22C9E0DEC00BD5898 /* doorOfGaslighting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doorOfGaslighting.swift; sourceTree = "<group>"; };
+		CA52E5F42C9E0E0F00BD5898 /* doorOfHint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doorOfHint.swift; sourceTree = "<group>"; };
+		CA52E5F62C9E0FA100BD5898 /* youDied.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = youDied.swift; sourceTree = "<group>"; };
+		CA52E5F82C9E119E00BD5898 /* hell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hell.swift; sourceTree = "<group>"; };
+		CA52E5FA2C9E1DE900BD5898 /* purgatory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = purgatory.swift; sourceTree = "<group>"; };
+		CA8BFE3D2CA275DB00C20FAA /* returning customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "returning customer.swift"; sourceTree = "<group>"; };
+		CA8BFE3F2CA34F4500C20FAA /* secret room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "secret room.swift"; sourceTree = "<group>"; };
+		CA8BFE412CA35D9A00C20FAA /* Heaven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heaven.swift; sourceTree = "<group>"; };
+		CA8BFE432CA3619000C20FAA /* startView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = startView.swift; sourceTree = "<group>"; };
+		CA8BFE472CA4ABA400C20FAA /* knife.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = knife.mp3; path = ../../../../Downloads/knife.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA52E5BE2C9E08F400BD5898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA52E5CE2C9E08F700BD5898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA52E5D82C9E08F700BD5898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA52E5B82C9E08F400BD5898 = {
+			isa = PBXGroup;
+			children = (
+				CA52E5C32C9E08F400BD5898 /* chose your own suicide */,
+				CA52E5D42C9E08F700BD5898 /* chose your own suicideTests */,
+				CA52E5DE2C9E08F700BD5898 /* chose your own suicideUITests */,
+				CA52E5C22C9E08F400BD5898 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA52E5C22C9E08F400BD5898 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA52E5C12C9E08F400BD5898 /* chose your own suicide.app */,
+				CA52E5D12C9E08F700BD5898 /* chose your own suicideTests.xctest */,
+				CA52E5DB2C9E08F700BD5898 /* chose your own suicideUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA52E5C32C9E08F400BD5898 /* chose your own suicide */ = {
+			isa = PBXGroup;
+			children = (
+				CA8BFE472CA4ABA400C20FAA /* knife.mp3 */,
+				CA52E5C42C9E08F400BD5898 /* choseWhichDeathApp.swift */,
+				CA52E5C62C9E08F400BD5898 /* ContentView.swift */,
+				CA8BFE3D2CA275DB00C20FAA /* returning customer.swift */,
+				CA52E5EE2C9E0C5200BD5898 /* doorOfDoom.swift */,
+				CA52E5FA2C9E1DE900BD5898 /* purgatory.swift */,
+				CA52E5F02C9E0DCE00BD5898 /* doorOfNerdom.swift */,
+				CA8BFE3F2CA34F4500C20FAA /* secret room.swift */,
+				CA52E5F22C9E0DEC00BD5898 /* doorOfGaslighting.swift */,
+				CA52E5F42C9E0E0F00BD5898 /* doorOfHint.swift */,
+				CA52E5F62C9E0FA100BD5898 /* youDied.swift */,
+				CA8BFE432CA3619000C20FAA /* startView.swift */,
+				CA8BFE412CA35D9A00C20FAA /* Heaven.swift */,
+				CA52E5F82C9E119E00BD5898 /* hell.swift */,
+				CA52E5C82C9E08F600BD5898 /* Assets.xcassets */,
+				CA52E5CA2C9E08F600BD5898 /* Preview Content */,
+			);
+			path = "chose your own suicide";
+			sourceTree = "<group>";
+		};
+		CA52E5CA2C9E08F600BD5898 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CA52E5CB2C9E08F600BD5898 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CA52E5D42C9E08F700BD5898 /* chose your own suicideTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA52E5D52C9E08F700BD5898 /* chose_your_own_suicideTests.swift */,
+			);
+			path = "chose your own suicideTests";
+			sourceTree = "<group>";
+		};
+		CA52E5DE2C9E08F700BD5898 /* chose your own suicideUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA52E5DF2C9E08F700BD5898 /* chose_your_own_suicideUITests.swift */,
+				CA52E5E12C9E08F700BD5898 /* chose_your_own_suicideUITestsLaunchTests.swift */,
+			);
+			path = "chose your own suicideUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA52E5C02C9E08F400BD5898 /* chose your own suicide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA52E5E52C9E08F700BD5898 /* Build configuration list for PBXNativeTarget "chose your own suicide" */;
+			buildPhases = (
+				CA52E5BD2C9E08F400BD5898 /* Sources */,
+				CA52E5BE2C9E08F400BD5898 /* Frameworks */,
+				CA52E5BF2C9E08F400BD5898 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "chose your own suicide";
+			productName = "chose your own suicide";
+			productReference = CA52E5C12C9E08F400BD5898 /* chose your own suicide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA52E5D02C9E08F700BD5898 /* chose your own suicideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA52E5E82C9E08F700BD5898 /* Build configuration list for PBXNativeTarget "chose your own suicideTests" */;
+			buildPhases = (
+				CA52E5CD2C9E08F700BD5898 /* Sources */,
+				CA52E5CE2C9E08F700BD5898 /* Frameworks */,
+				CA52E5CF2C9E08F700BD5898 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA52E5D32C9E08F700BD5898 /* PBXTargetDependency */,
+			);
+			name = "chose your own suicideTests";
+			productName = "chose your own suicideTests";
+			productReference = CA52E5D12C9E08F700BD5898 /* chose your own suicideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA52E5DA2C9E08F700BD5898 /* chose your own suicideUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA52E5EB2C9E08F700BD5898 /* Build configuration list for PBXNativeTarget "chose your own suicideUITests" */;
+			buildPhases = (
+				CA52E5D72C9E08F700BD5898 /* Sources */,
+				CA52E5D82C9E08F700BD5898 /* Frameworks */,
+				CA52E5D92C9E08F700BD5898 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA52E5DD2C9E08F700BD5898 /* PBXTargetDependency */,
+			);
+			name = "chose your own suicideUITests";
+			productName = "chose your own suicideUITests";
+			productReference = CA52E5DB2C9E08F700BD5898 /* chose your own suicideUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA52E5B92C9E08F400BD5898 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					CA52E5C02C9E08F400BD5898 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					CA52E5D02C9E08F700BD5898 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = CA52E5C02C9E08F400BD5898;
+					};
+					CA52E5DA2C9E08F700BD5898 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = CA52E5C02C9E08F400BD5898;
+					};
+				};
+			};
+			buildConfigurationList = CA52E5BC2C9E08F400BD5898 /* Build configuration list for PBXProject "chose your own suicide" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA52E5B82C9E08F400BD5898;
+			productRefGroup = CA52E5C22C9E08F400BD5898 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA52E5C02C9E08F400BD5898 /* chose your own suicide */,
+				CA52E5D02C9E08F700BD5898 /* chose your own suicideTests */,
+				CA52E5DA2C9E08F700BD5898 /* chose your own suicideUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA52E5BF2C9E08F400BD5898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA8BFE482CA4ABA400C20FAA /* knife.mp3 in Resources */,
+				CA52E5CC2C9E08F600BD5898 /* Preview Assets.xcassets in Resources */,
+				CA52E5C92C9E08F600BD5898 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA52E5CF2C9E08F700BD5898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA52E5D92C9E08F700BD5898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA52E5BD2C9E08F400BD5898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA8BFE442CA3619000C20FAA /* startView.swift in Sources */,
+				CA52E5EF2C9E0C5300BD5898 /* doorOfDoom.swift in Sources */,
+				CA8BFE3E2CA275DB00C20FAA /* returning customer.swift in Sources */,
+				CA8BFE402CA34F4500C20FAA /* secret room.swift in Sources */,
+				CA52E5F72C9E0FA100BD5898 /* youDied.swift in Sources */,
+				CA52E5F92C9E119E00BD5898 /* hell.swift in Sources */,
+				CA52E5FB2C9E1DE900BD5898 /* purgatory.swift in Sources */,
+				CA52E5C72C9E08F400BD5898 /* ContentView.swift in Sources */,
+				CA52E5F52C9E0E1000BD5898 /* doorOfHint.swift in Sources */,
+				CA52E5C52C9E08F400BD5898 /* choseWhichDeathApp.swift in Sources */,
+				CA52E5F32C9E0DEC00BD5898 /* doorOfGaslighting.swift in Sources */,
+				CA8BFE422CA35D9A00C20FAA /* Heaven.swift in Sources */,
+				CA52E5F12C9E0DCE00BD5898 /* doorOfNerdom.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA52E5CD2C9E08F700BD5898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA52E5D62C9E08F700BD5898 /* chose_your_own_suicideTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA52E5D72C9E08F700BD5898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA52E5E22C9E08F700BD5898 /* chose_your_own_suicideUITestsLaunchTests.swift in Sources */,
+				CA52E5E02C9E08F700BD5898 /* chose_your_own_suicideUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA52E5D32C9E08F700BD5898 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA52E5C02C9E08F400BD5898 /* chose your own suicide */;
+			targetProxy = CA52E5D22C9E08F700BD5898 /* PBXContainerItemProxy */;
+		};
+		CA52E5DD2C9E08F700BD5898 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA52E5C02C9E08F400BD5898 /* chose your own suicide */;
+			targetProxy = CA52E5DC2C9E08F700BD5898 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CA52E5E32C9E08F700BD5898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA52E5E42C9E08F700BD5898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA52E5E62C9E08F700BD5898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"chose your own suicide/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "project.chose-your-own-suicide";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA52E5E72C9E08F700BD5898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"chose your own suicide/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "project.chose-your-own-suicide";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA52E5E92C9E08F700BD5898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "project.chose-your-own-suicideTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chose your own suicide.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/chose your own suicide";
+			};
+			name = Debug;
+		};
+		CA52E5EA2C9E08F700BD5898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "project.chose-your-own-suicideTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chose your own suicide.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/chose your own suicide";
+			};
+			name = Release;
+		};
+		CA52E5EC2C9E08F700BD5898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "project.chose-your-own-suicideUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "chose your own suicide";
+			};
+			name = Debug;
+		};
+		CA52E5ED2C9E08F700BD5898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "project.chose-your-own-suicideUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "chose your own suicide";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA52E5BC2C9E08F400BD5898 /* Build configuration list for PBXProject "chose your own suicide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA52E5E32C9E08F700BD5898 /* Debug */,
+				CA52E5E42C9E08F700BD5898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA52E5E52C9E08F700BD5898 /* Build configuration list for PBXNativeTarget "chose your own suicide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA52E5E62C9E08F700BD5898 /* Debug */,
+				CA52E5E72C9E08F700BD5898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA52E5E82C9E08F700BD5898 /* Build configuration list for PBXNativeTarget "chose your own suicideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA52E5E92C9E08F700BD5898 /* Debug */,
+				CA52E5EA2C9E08F700BD5898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA52E5EB2C9E08F700BD5898 /* Build configuration list for PBXNativeTarget "chose your own suicideUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA52E5EC2C9E08F700BD5898 /* Debug */,
+				CA52E5ED2C9E08F700BD5898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA52E5B92C9E08F400BD5898 /* Project object */;
+}
